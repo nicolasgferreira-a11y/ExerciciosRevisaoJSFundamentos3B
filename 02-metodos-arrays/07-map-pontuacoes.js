@@ -5,3 +5,10 @@
 //
 // Escreva sua solução abaixo:
 
+const pontuacoes = [20, 35, 40, 55];
+
+const novasPontuacoes = pontuacoes.map(pontuacao => pontuacao + 5);
+
+console.log("Array original:", pontuacoes);
+console.log("Novo array:", novasPontuacoes);
+
