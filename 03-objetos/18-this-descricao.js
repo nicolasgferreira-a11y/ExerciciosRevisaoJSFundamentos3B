@@ -4,3 +4,13 @@
 //
 // Escreva sua solução abaixo:
 
+const curso = {
+    nome: "Programação",
+    modalidade: "Presencial",
+
+    descrever() {
+        return `Curso: ${this.nome} | Modalidade: ${this.modalidade}`;
+    }
+};
+
+console.log(curso.descrever());
