@@ -5,3 +5,8 @@
 //
 // Escreva sua solução abaixo:
 
+let converterMinutos = minutos => minutos * 60;
+
+let segundos = converterMinutos(5);
+
+console.log(`Segundos: ${segundos}` );

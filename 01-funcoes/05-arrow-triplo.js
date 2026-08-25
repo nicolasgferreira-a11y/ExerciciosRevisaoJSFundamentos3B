@@ -4,3 +4,8 @@
 //
 // Escreva sua solução abaixo:
 
+let triplo = numero => numero * 3;
+
+let resultado = triplo(12);
+
+console.log(`Triplo: ${resultado}`);
