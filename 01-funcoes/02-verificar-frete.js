@@ -5,3 +5,16 @@
 //
 // Escreva sua solução abaixo:
 
+function verificarFrete(valorCompra) {
+    if (valorCompra >= 150) {
+        return "Frete grátis";
+    }
+    else
+    {
+        return "Frete pago";
+    }
+}
+
+let resultado = verificarFrete(200);
+
+console.log(resultado);

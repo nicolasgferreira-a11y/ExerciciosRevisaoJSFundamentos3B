@@ -5,3 +5,10 @@
 //
 // Escreva sua solução abaixo:
 
+function calcularConsumo(distancia, litros)     {
+    return distancia / litros;
+}
+
+let consumo = calcularConsumo(300, 20);
+
+console.log(`Consumo médio: ${consumo} km/l`);

@@ -7,3 +7,10 @@
 //
 // Escreva sua solução abaixo:
 
+function calcularComissao(valorVenda, porcentagem) {
+    return valorVenda * porcentagem / 100;
+}
+
+let comissao = calcularComissao(800, 5);
+
+console.log(`Comissão: R$ ${comissao}`);
