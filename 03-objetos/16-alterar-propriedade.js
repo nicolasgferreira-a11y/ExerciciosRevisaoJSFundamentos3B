@@ -5,3 +5,16 @@
 //
 // Escreva sua solução abaixo:
 
+const ingresso = {
+    evento: "Show",
+    preco: 50,
+    quantidade: 2
+};
+
+console.log("Antes:", ingresso);
+
+// Alterando o preço e aumentando a quantidade em 2
+ingresso.preco = 60;
+ingresso.quantidade += 2;
+
+console.log("Depois:", ingresso);
