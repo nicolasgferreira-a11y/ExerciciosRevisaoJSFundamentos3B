@@ -4,3 +4,6 @@
 //
 // Escreva sua solução abaixo:
 
+const temperaturas = [18, 25, 31, 16, 29, 35, 22];
+
+const temperaturasAcimaDe25 = temperaturas.filter(temperatura => temperatura > 25);
