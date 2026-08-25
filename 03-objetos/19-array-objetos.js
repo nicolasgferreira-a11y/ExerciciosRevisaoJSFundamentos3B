@@ -5,3 +5,25 @@
 //
 // Escreva sua solução abaixo:
 
+const jogos = [
+    {
+        titulo: "Minecraft",
+        plataforma: "PC",
+        classificacao: "Livre"
+    },
+    {
+        titulo: "Fortnite",
+        plataforma: "PC",
+        classificacao: "12 anos"
+    },
+    {
+        titulo: "FIFA",
+        plataforma: "PlayStation",
+        classificacao: "Livre"
+    }
+];
+
+jogos.forEach(jogo => {
+    console.log("Título:", jogo.titulo);
+    console.log("Plataforma:", jogo.plataforma);
+});
