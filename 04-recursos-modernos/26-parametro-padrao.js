@@ -5,3 +5,12 @@
 //
 // Escreva sua solução abaixo:
 
+function calcularEntrega(valor, taxa = 10) {
+    return valor + taxa;
+}
+
+// Informando a taxa
+console.log("Com taxa informada:", calcularEntrega(100, 20));
+
+// Omitindo a taxa
+console.log("Com taxa padrão:", calcularEntrega(100));
